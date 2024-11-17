@@ -26,3 +26,10 @@ packages:
           all: True
           dir: ./internal
           inpackage: True
+  github.com/zcolleen/redis:
+    interfaces:
+      Client:
+        config:
+          all: True
+          dir: ./internal
+          inpackage: True
