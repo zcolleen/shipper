@@ -4,10 +4,9 @@ go 1.22.3
 
 require (
 	github.com/gojuno/minimock/v3 v3.4.0
-	github.com/google/uuid v1.6.0
 	github.com/stretchr/testify v1.9.0
 	github.com/vektra/mockery/v2 v2.45.1
-	github.com/zcolleen/redis v0.0.0-00010101000000-000000000000
+	github.com/zcolleen/redis v0.0.0-20241117220117-46bd011743d0
 	go.uber.org/mock v0.4.0
 )
 
@@ -48,5 +47,3 @@ require (
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
-
-replace github.com/zcolleen/redis => ../redis
