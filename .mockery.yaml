@@ -1,0 +1,28 @@
+with-expecter: True
+packages:
+  github.com/zcolleen/shipper/internal:
+    interfaces:
+      Task:
+        config:
+          filename: ./zzz_mock_Task_mockery.go
+          all: True
+          dir: ./internal
+          inpackage: True
+      redisClient:
+        config:
+          filename: ./zzz_mock_RedisClient_mockery.go
+          all: True
+          dir: ./internal
+          inpackage: True
+      UserStore:
+        config:
+          filename: ./zzz_mock_UserStore_mockery.go
+          all: True
+          dir: ./internal
+          inpackage: True
+      historyLogger:
+        config:
+          filename: ./zzz_mock_historyLogger_mockery.go
+          all: True
+          dir: ./internal
+          inpackage: True

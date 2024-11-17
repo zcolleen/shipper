@@ -1,0 +1,11 @@
+with-expecter: true
+mockname: "MockMockery{{.InterfaceName}}"
+filename: "mock_{{.InterfaceName}}_test.go"
+packages:
+  github.com/zcolleen/shipper/shipment_creator:
+    config:
+      dir: ./shipment_creator/mocks
+    interfaces:
+      ShipmentCreator:
+        config:
+
